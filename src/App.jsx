@@ -9,7 +9,9 @@ function App() {
 
   return (
     <main className="">
-      <div className="logo"></div>
+      <div className="logo">
+        <img src="https://stickair.com/30524-large_default/suzuki-hayabusa.jpg" alt="" className="" />
+      </div>
       <Title></Title>
       <section>
         <Counter></Counter>
