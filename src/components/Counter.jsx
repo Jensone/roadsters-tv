@@ -25,7 +25,7 @@ export default function Counter() {
 
     return (
         <div className="text-center">
-            <p className="text-6xl font-extrabold my-10">
+            <p className="text-6xl font-bold my-10">
                 <CountUp
                     start={previousAmountRef.current}
                     end={amount}
@@ -36,6 +36,7 @@ export default function Counter() {
             </p>
             <a
                 href="https://fr.ulule.com/hayabusa-rodsters-tv/"
+                target='_blank' rel='noreferrer'
                 className="text-lg bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full py-4 px-6 my-4 inline-block animate-bounce"
             >
                 Participez vous aussi !

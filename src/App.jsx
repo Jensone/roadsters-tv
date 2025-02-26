@@ -14,7 +14,7 @@ function App() {
       <section>
         <Counter></Counter>
       </section>
-      {/* <Networks></Networks> */}
+      <Networks></Networks>
     </main>
   )
 }
