@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-cover bg-no-repeat bg-fixed bg-center bg-slate-700 bg-blend-multiply;
+  background-image: url("https://d2homsd77vx6d2.cloudfront.net/presales/3/7/0/2/0/2/202073/01-5.xsJkNeLu1y.jpg");
+  font-family: "Poppins", serif;
+}
+
+main {
+  @apply bg-gradient-to-t from-neutral-900 to-transparent text-white min-h-screen w-full flex flex-col justify-center items-center;
+}
+
+.logo {
+  @apply w-32 h-32 bg-cover bg-no-repeat bg-center rounded-full shadow-2xl animate-pulse duration-1000 ease-in-out mb-8;
+  background-image: url("https://m.media-amazon.com/images/I/31jdZLZ4orL._BO30,255,255,255_UF900,850_SR1910,1000,0,C_QL100_.jpg");
+}
+
