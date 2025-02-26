@@ -33,6 +33,8 @@ export default function Counter() {
                     redraw={true}
                     separator=" "
                 /> &euro;
+                <br />
+                <span className="text-base font-light">collectés sur 55 000 &euro;</span>
             </p>
             <a
                 href="https://fr.ulule.com/hayabusa-rodsters-tv/"
