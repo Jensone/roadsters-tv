@@ -2,7 +2,7 @@ export default function Networks() {
     return (
     <a 
         href="https://linktr.ee/rodsterstv" 
-        className="flex gap-4 fixed bottom-10 hover:scale-105 transition-transform duration-300 ease-in-out" 
+        className="flex gap-4 mt-16 hover:scale-105 transition-transform duration-300 ease-in-out" 
         target="_blank" rel="noreferrer"
     >
         <img 

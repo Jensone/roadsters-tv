@@ -10,7 +10,7 @@ main {
   @apply bg-gradient-to-t from-neutral-900 to-transparent text-white min-h-screen w-full flex flex-col justify-center items-center;
 }
 
-.logo {
+.logo img {
   @apply w-32 h-32 animate-pulse duration-1000 ease-in-out mb-8;
   filter: contrast(0.4) brightness(3);
 }
